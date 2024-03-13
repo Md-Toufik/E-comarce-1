@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-comarce Project</title>
+
+    <!--! CSS  -->
+    <link rel="stylesheet" href="index.css">
+    <!-- ! CSS -->
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <div class="Nav-menu-icon">
+        <img src="Image/bars.svg" class="menu-bar" id="" alt="">
+        <img src="Image/xmark.svg" alt="" id="hidden-x" class="x-mark">
+    </div>
+    <nav class="visibility" id="menu">
+        <ul class="top-header justify-content-around">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./reister.html">Register</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./index.html">Logout</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li class="nav-img1"><a href="./profile.html"><img src="Image/IMG_0136-removebg-preview copy.jpg" alt=""
+                        class="nav-style-img"></a></li>
+        </ul>
+        <ul class="bottom-header justify-content-around">
+            <li><a href="./index.html">Anis Express</a></li>
+            <li><a href="./cart.html"><span><img src="Image/shop-slash.svg" alt="Shoping image"
+                            class="bottom-header-img-style">Cart2products-$124.40</span></a></li>
+        </ul>
+    </nav>
+    <!--!======= Navbar End ======== -->
+    <main class="Cart__main">
+        <section class="all-items justify-content-around">
+            <aside class="Shopping ">
+                <div class="Shopping_top card">
+                    <h3>Shoping Cart[2items]</h3>
+                    <div class="Select__all__style">
+                        <label for="Selectall">
+                            <input type="checkbox" id="Selectall">
+                            Select all items
+                        </label>
+                        <button class="btn Select__all__btn"><span><img src="Image/face-dizzy.svg"
+                                    class="select-img-style" alt=""></span></button>
+                        <button class="btn">Shope More</button>
+                    </div>
+                </div>
+
+                <!-- Main Card Start -->
+                <div class="card Card__cart justify-content-around">
+                    <label for="car">
+                        <input type="checkbox">
+                    </label>
+                    <img src="Image/600137.jpg" id="car" class="cart__img_style" alt="">
+                    <div class="cart__text">
+                        <h4>Sony v-4 Headphone</h4>
+                        <h5>Price: $255.99</h5>
+                        <span class="cart__text__span">Free Shiping</span>
+                    </div>
+                    <div class="Cart__btns">
+                        <button class="btn Select__all__btn"><span><img src="Image/face-dizzy.svg"
+                                    class="select-img-style" alt=""></span></button>
+                        <button class="btn">+ <span>3</span>-</button>
+                    </div>
+                </div>
+
+                <div class="card Card__cart justify-content-around">
+                    <label for="">
+                        <input type="checkbox">
+                    </label>
+                    <img src="Image/600137.jpg" class="cart__img_style" alt="">
+                    <div class="cart__text">
+                        <h4>Sony v-4 Headphone</h4>
+                        <h5>Price: $255.99</h5>
+                        <span class="cart__text__span">Paid Shipping</span>
+                    </div>
+                    <div class="Cart__btns">
+                        <button class="btn Select__all__btn"><span><img src="Image/face-dizzy.svg"
+                                    class="select-img-style" alt=""></span></button>
+                        <button class="btn">+ <span>3</span>-</button>
+                    </div>
+                </div>
+            </aside>
+            <article id="Payment">
+                <section class="payment card">
+                    <h1>Payment summary</h1>
+                    <div>
+                        <p>subtotal</p>
+                        <p>$341.44</p>
+                    </div>
+                    <div>Shiping cost</p>
+                        <p>$2.50</p>
+                    </div>
+                    <div>
+                        <p>Total cost</p>
+                        <p>$343.94</p>
+                    </div>
+                    <button class="btn">Pay Now</button>
+                </section>
+                <section class="Payment__methods card">
+                    <h1>Payment Methods</h1>
+                    <ul class="Payment__system">
+                        <li><a href="#"><img src="Image/eye.svg" class="payment__img__style" alt=""></a></li>
+                        <li><a href="#"><img src="Image/eye.svg" class="payment__img__style" alt=""></a></li>
+                        <li><a href="#"><img src="Image/eye.svg" class="payment__img__style" alt=""></a></li>
+                        <li><a href="#"><img src="Image/eye.svg" class="payment__img__style" alt=""></a></li>
+                        <li><a href="#"><img src="Image/eye.svg" class="payment__img__style" alt=""></a></li>
+                    </ul>
+                </section>
+            </article>
+        </section>
+    </main>
+    <!--!======= Footer Start ======== -->
+    <footer class="justify-content-around">
+        <div class="justify-content-around">
+            <label for="email">Subscribe To Newsletter:</label>
+            <input type="email" id="email" class="footer__input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">SUBSCRIBE</button>
+
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Anis Express all Rights reserved</p>
+        </div>
+    </footer>
+    <!--!-------------Java Script--------- -->
+    <script src="index.js"></script>
+</body>
+
+</html>
